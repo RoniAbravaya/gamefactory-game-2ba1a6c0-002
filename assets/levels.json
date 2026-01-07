@@ -1,0 +1,244 @@
+{
+  "levels": [
+    {
+      "level_number": 1,
+      "name": "First Steps",
+      "is_free": true,
+      "unlock_requirement": "none",
+      "difficulty": 0.1,
+      "time_limit_seconds": null,
+      "target_score": 100,
+      "obstacles": {
+        "type": "static",
+        "count": 5,
+        "speed": 1
+      },
+      "collectibles": {
+        "type": "coin",
+        "count": 10,
+        "value": 10
+      },
+      "special_features": [
+        "basic_jumps"
+      ],
+      "background_theme": "City Day",
+      "music_track": "Sunny Days"
+    },
+    {
+      "level_number": 2,
+      "name": "Picking Up Pace",
+      "is_free": true,
+      "unlock_requirement": "none",
+      "difficulty": 0.2,
+      "time_limit_seconds": null,
+      "target_score": 200,
+      "obstacles": {
+        "type": "static",
+        "count": 10,
+        "speed": 1
+      },
+      "collectibles": {
+        "type": "coin",
+        "count": 20,
+        "value": 10
+      },
+      "special_features": [
+        "increased_obstacle_count"
+      ],
+      "background_theme": "Suburban Sunset",
+      "music_track": "Chill Run"
+    },
+    {
+      "level_number": 3,
+      "name": "Night Dash",
+      "is_free": true,
+      "unlock_requirement": "none",
+      "difficulty": 0.3,
+      "time_limit_seconds": null,
+      "target_score": 300,
+      "obstacles": {
+        "type": "static",
+        "count": 15,
+        "speed": 2
+      },
+      "collectibles": {
+        "type": "coin",
+        "count": 30,
+        "value": 10
+      },
+      "special_features": [
+        "first_night_level"
+      ],
+      "background_theme": "City Night",
+      "music_track": "Night Pulse"
+    },
+    {
+      "level_number": 4,
+      "name": "Rising Challenge",
+      "is_free": false,
+      "unlock_requirement": "rewarded_ad",
+      "difficulty": 0.4,
+      "time_limit_seconds": null,
+      "target_score": 400,
+      "obstacles": {
+        "type": "moving",
+        "count": 10,
+        "speed": 3
+      },
+      "collectibles": {
+        "type": "coin",
+        "count": 40,
+        "value": 10
+      },
+      "special_features": [
+        "introduction_moving_obstacles"
+      ],
+      "background_theme": "Mountain Morning",
+      "music_track": "Upbeat Journey"
+    },
+    {
+      "level_number": 5,
+      "name": "Swift Turns",
+      "is_free": false,
+      "unlock_requirement": "rewarded_ad",
+      "difficulty": 0.5,
+      "time_limit_seconds": null,
+      "target_score": 500,
+      "obstacles": {
+        "type": "moving",
+        "count": 20,
+        "speed": 4
+      },
+      "collectibles": {
+        "type": "coin",
+        "count": 50,
+        "value": 10
+      },
+      "special_features": [
+        "increased_game_speed"
+      ],
+      "background_theme": "Forest Day",
+      "music_track": "Forest Run"
+    },
+    {
+      "level_number": 6,
+      "name": "Obstacle Rhythm",
+      "is_free": false,
+      "unlock_requirement": "rewarded_ad",
+      "difficulty": 0.6,
+      "time_limit_seconds": null,
+      "target_score": 600,
+      "obstacles": {
+        "type": "mixed",
+        "count": 25,
+        "speed": 5
+      },
+      "collectibles": {
+        "type": "coin",
+        "count": 60,
+        "value": 10
+      },
+      "special_features": [
+        "mixed_obstacle_types"
+      ],
+      "background_theme": "Urban Dusk",
+      "music_track": "Dusk Beats"
+    },
+    {
+      "level_number": 7,
+      "name": "The Great Leap",
+      "is_free": false,
+      "unlock_requirement": "rewarded_ad",
+      "difficulty": 0.7,
+      "time_limit_seconds": null,
+      "target_score": 700,
+      "obstacles": {
+        "type": "moving",
+        "count": 30,
+        "speed": 6
+      },
+      "collectibles": {
+        "type": "coin",
+        "count": 70,
+        "value": 10
+      },
+      "special_features": [
+        "long_jumps"
+      ],
+      "background_theme": "Canyon Evening",
+      "music_track": "Epic Escape"
+    },
+    {
+      "level_number": 8,
+      "name": "Twilight Sprint",
+      "is_free": false,
+      "unlock_requirement": "rewarded_ad",
+      "difficulty": 0.8,
+      "time_limit_seconds": null,
+      "target_score": 800,
+      "obstacles": {
+        "type": "mixed",
+        "count": 35,
+        "speed": 7
+      },
+      "collectibles": {
+        "type": "coin",
+        "count": 80,
+        "value": 10
+      },
+      "special_features": [
+        "increased_difficulty"
+      ],
+      "background_theme": "Desert Twilight",
+      "music_track": "Desert Winds"
+    },
+    {
+      "level_number": 9,
+      "name": "Moonlight Madness",
+      "is_free": false,
+      "unlock_requirement": "rewarded_ad",
+      "difficulty": 0.9,
+      "time_limit_seconds": null,
+      "target_score": 900,
+      "obstacles": {
+        "type": "moving",
+        "count": 40,
+        "speed": 8
+      },
+      "collectibles": {
+        "type": "coin",
+        "count": 90,
+        "value": 10
+      },
+      "special_features": [
+        "night_vision"
+      ],
+      "background_theme": "Mountain Night",
+      "music_track": "Moonlit Run"
+    },
+    {
+      "level_number": 10,
+      "name": "Final Frontier",
+      "is_free": false,
+      "unlock_requirement": "rewarded_ad",
+      "difficulty": 1.0,
+      "time_limit_seconds": null,
+      "target_score": 1000,
+      "obstacles": {
+        "type": "mixed",
+        "count": 50,
+        "speed": 10
+      },
+      "collectibles": {
+        "type": "coin",
+        "count": 100,
+        "value": 10
+      },
+      "special_features": [
+        "ultimate_challenge"
+      ],
+      "background_theme": "Space",
+      "music_track": "Final Odyssey"
+    }
+  ]
+}
